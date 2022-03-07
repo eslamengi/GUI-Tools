@@ -20,5 +20,5 @@
 ### <ins>Developed By:</ins>  
 
     1. Eslam Ahmed Elsheikh https://github.com/eslamengi
-    2. Ahmed Abdelmoneim Elshazli 
+    2. Ahmed Abdelmoneim Elshazli https://github.com/shazli1
     3. Ahmed Mostafa ElBaz https://github.com/ahmed-elbaz
