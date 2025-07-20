@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f4f6fa;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4f6fa;
+}
+
+.App-header {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2d3a4a;
+}
+
+.upload-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.upload-form input[type="file"] {
+  font-size: 1rem;
+}
+
+.upload-form select, .upload-form button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+}
+
+.upload-form button {
+  background: #3d59ab;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.upload-form button:disabled {
+  background: #b0b8c1;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #d32f2f;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.image-preview {
+  max-width: 300px;
+  max-height: 220px;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    padding: 1rem 0.5rem;
+  }
+  .images-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .image-preview {
+    max-width: 90vw;
+  }
+}
